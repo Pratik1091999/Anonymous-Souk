@@ -1,0 +1,370 @@
+ /* CSS Reset */
+ body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;   
+}
+/* header CSS */
+
+.header{
+    background-color: black;
+    height: 100px;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 15px;
+}
+
+.logo img {
+    width: 85px;
+    margin-left: 50px;
+}
+
+.logo div{
+    line-height:0px;
+    font-size: 25px;
+}
+.navbar {
+    display: block;
+    width: 50%;
+    margin: 29px auto;
+}
+
+.nav {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.nav li a:hover,
+.nav li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.navbtn {
+    position: absolute;
+    right: 34px;
+    top: 55px;
+    display: inline-block;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+
+
+/* slider */
+.slider{
+    width: 100%;
+    height: 500px;
+    position: absolute;
+    top: 20%;
+    background-image: url(/img/img1.jpg);
+    background-size:100% 100% ;
+    box-shadow: 1px 2px 10px 5px black;
+    animation: 10s slider infinite ;
+}
+@keyframes  slider{
+    0%{
+        left: 0%;
+        background-image: url(\img1.jpg);
+    }
+    35%{
+        left: 0%;
+        background-image: url(img2.jpg);
+    }
+    75%{
+        left: 0%;
+        background-image: url(img3.jpg);
+    }
+}
+
+
+
+/* box css */
+.top_box{
+    background-image: url(/img/main\ bg.jpg);
+    background-color:black;
+    float: left;
+    width: 20%;
+    height: 50px;
+    margin: 570px 70px 0px 110px;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    text-align: center;
+    padding-top: 25px;
+    font-size: 30px;
+}
+
+.bottom_box{
+    background-color: gray;
+    float: left;
+    width: 20%;
+    height: 160px;
+    margin: 0px 70px 0px 110px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    text-align: center;
+    padding-top: 60px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+}
+a:hover{
+    color: white;
+}
+
+
+
+
+/* mid bar  */
+.mid_bar{
+    background-color: black;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    height: 50px;
+    margin: 930px 10px 0px 10px;
+}
+
+.left_mid_bar li {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 11px;
+}
+
+.left_mid_bar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.left_mid_bar li a:hover,
+.left_mid_bar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.mid_right {
+    position: absolute;
+    right: 60px;
+    top: 28px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.mid_right a {
+    color: white;
+    text-decoration: none;
+}
+
+.mid_right  a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+.bg_background{
+    background-image: url(/img/main\ bg2.jpg);
+    width: 98%;
+    height: 705px;
+    margin: 0px 10px 0px 14px;
+    opacity: 0.75;
+}
+
+/* items box  */
+
+.product-container {
+    background-color: white;
+
+  }
+.items_img{
+ 
+    display: inline;
+    border: 2px solid black;
+    width: 20%;
+    height: 300px;
+    float: left;
+    color: black;
+    margin: 40px 35px 0px 35px;
+  }
+
+.items_img1{
+    width: 110%;
+    margin: -84px 0px 0px -20px;
+  }
+
+  .items_img2{
+    width: 110%;
+    margin: -39px 0px 0px -5px;
+  }
+
+  .items_img3{
+    width: 110%;
+    margin: -39px 0px 0px -5px;
+  }
+
+  .items_img4{
+    width: 110%;
+    margin: -39px 0px 0px -12px;
+  }
+
+  .items_img5{
+    width: 110%;
+    margin: -39px 0px 0px -20px;
+  }
+
+  .items_img6{
+    width: 110%;
+    margin: -39px 0px 0px -5px;
+  }
+
+  .items_img7{
+    width: 110%;
+    margin: -39px 0px 0px -5px;
+  }
+
+  .items_img8{
+    width: 110%;
+    margin: -39px 0px 0px -5px;
+  }
+
+  .items_bottom_box1{
+      background-color: black;
+      color: white;
+      width: 100%;
+      height: 45px;
+  }
+
+  .items_bottom_box2{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 45px;
+}
+  /* mid bar end  */
+  .mid_bar_end{
+    background-color: black;
+    border-bottom-left-radius: 10px ;
+    border-bottom-right-radius: 10px ;
+    height: 50px;
+    margin: 710px 10px 0px 10px;
+}
+
+/* About us box  */
+
+.about_box{
+    background-color: gray;
+    height: 500px;
+    margin: 50px 0px 0px 0px;
+}
+.About_logo {
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    top: 1970px;
+}
+
+.About_logo img {
+    width: 300px;
+}
+
+.About_logo div{
+    line-height:0px;
+    font-size: 27px;
+    margin-left: 50px;
+}
+
+.about_info div {
+    margin: 0px 0px 0px 400px;
+    padding-top: 50px;
+    font-size: 40px;
+}
+.about_info div  h2{
+    padding-top: 50px;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.T{
+    font-family: Georgia,serif !important;
+    font-weight: 700 !important;
+    font-size: 60px !important;
+    padding-top: 20px;
+}
+
+.about_info p{
+    font-size: 17px;
+    font-family:  Georgia,serif;
+    padding-right: 100px ;
+    margin:20px 0px 0px 00px ;
+}
+
+
+
+
+
+/* this footer  */
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 400px;
+    position: relative;
+    margin-top: 40px;
+ 
+}
+h2{
+    border-bottom: 2px solid white ;
+    margin-top: 0px;
+}
+ 
+.footer_items{
+    display: inline-block;
+    padding: 50px;
+}
+
+.footer_items li {
+    list-style-type: none;
+}
+
+.footer_items li a{
+    color: white;
+    text-decoration: none;
+}
+
+.footer_items li a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+.footer p{
+    text-align: center;
+}

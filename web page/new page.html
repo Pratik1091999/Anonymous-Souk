@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.mid_bar_start{
+    background-color: black;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px ;
+    height: 50px;
+}
+
+.left_mid_bar li {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 11px;
+}
+
+.left_mid_bar li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.left_mid_bar li a:hover,
+.left_mid_bar li a.active {
+    text-decoration: underline;
+    color: grey;
+}
+
+.mid_right {
+    position: absolute;
+    right: 60px;
+    top: 28px;
+    display: inline-block;
+    font-size: 22px;
+}
+
+.mid_right a {
+    color: white;
+    text-decoration: none;
+}
+
+.mid_right  a:hover {
+    text-decoration: underline;
+    color: grey;
+}
+    </style>
+</head>
+<body>
+    <!--mid bar-->
+    <div class="mid_bar_start">
+        <ul class="left_mid_bar">
+            <li><a href="#" class="active">Trending</a></li>
+            <li><a href="#">Latest</a></li>
+            <li><a href="#">Suggested</a></li>
+            <li><a href="#">Best Rated</a></li>
+            <li><a href="#">%Discounted</a></li>
+        </ul>
+    </div>
+    <!-- mid right  -->
+    <div class="mid_right">
+        <a href="#">See All Product</a> 
+    </div>
+</header>
+</body>
+</html>

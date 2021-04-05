@@ -1,0 +1,105 @@
+/* CSS Reset */
+body {
+    font-family: 'Baloo Bhai', cursive;
+    color: white;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header CSS */
+
+.header{
+    background-color: black;
+    height: 100px;
+}
+
+.logo {
+    display: inline-block;
+    position: absolute;
+    left: 70px;
+    top: 15px;
+}
+
+.logo img {
+    width: 85px;
+    margin-left: 50px;
+}
+
+.logo div{
+    line-height:0px;
+    font-size: 25px;
+}
+.navbar {
+    display: block;
+    width: 50%;
+    margin: 29px auto;
+}
+
+.nav {
+    display: inline-block;
+    margin-left: 90px;
+}
+
+.nav li {
+    display: inline-block;
+    font-size: 22px;
+    margin-top: 20px;
+}
+
+.nav li a {
+    color: white;
+    text-decoration: none;
+    padding: 34px 23px;
+
+}
+
+.nav li a:hover,
+.nav li a.active {
+    text-decoration: underline;
+    color: grey;
+
+}
+
+.navbtn {
+    position: absolute;
+    right: 34px;
+    top: 55px;
+    display: inline-block;
+}
+
+.btn {
+    font-family: 'Baloo Bhai', cursive;
+    margin: 0px 9px;
+    background-color: black;
+    color: white;
+    padding: 4px 10px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(31, 30, 30);
+}
+
+.product-container {
+    display: grid;
+    grid-template-columns: 450px 450px 450px;
+    padding: 10px;
+  }
+  
+  .product {
+    color: black;
+    border: 2px solid red;
+    border-radius: 30px;
+    margin: 50px;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+    height: 450px;
+  }
+
+ .product_img{
+     margin: 20px 20px 20px 20px;
+ }
